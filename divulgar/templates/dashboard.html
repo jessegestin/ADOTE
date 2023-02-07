@@ -19,7 +19,35 @@
                     <h2>ADO.TE</h2>
                     <hr>
                    
-                    
+                    <ul>
+                        <li>Cadastros</li>
+                            <ul>
+                                <li><a href="{% url 'novo_pet' %}" rel="stylesheet"> Cadastrar Pet </a></li>
+                            </ul>   
+                            <ul>
+                                <li><a href="{% url 'seus_pets' %}" rel="stylesheet"> Seus Pets </a></li>
+                            </ul>   
+                    </ul>  
+
+                     <ul>
+                        <li>Adoção</li>
+                            <ul>
+                                <li><a href="{% url 'ver_adocoes' %}" rel="stylesheet"> Lista de Adoção </a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="{% url 'ver_pedido_adocao' %}" rel="stylesheet"> Aprovar Adoção </a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="{% url 'dashboard' %}" rel="stylesheet"> Dashboard Adoções </a></li>
+                            </ul>
+                     </ul>
+
+                    <ul>
+                        <li>Opções</li>
+                            <ul>
+                                <li><a href="{% url 'sair' %}" rel="stylesheet"> Logout </a></li>
+                            </ul>
+                    </ul>
                 </div>
 
                 <div style="padding:60px" class="col-md">

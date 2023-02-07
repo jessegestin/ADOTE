@@ -8,5 +8,6 @@ urlpatterns = [
     path('ver_pet/<int:id>', views.ver_pet, name="ver_pet"),
     path('ver_pedido_adocao/', views.ver_pedido_adocao, name="ver_pedido_adocao"),
     path('dashboard/', views.dashboard, name="dashboard"),
+    path('ver_adocoes/', views.ver_adocoes, name="ver_adocoes"),
     path('api_adocoes_por_raca/', views.api_adocoes_por_raca, name="api_adocoes_por_raca"),
 ]
